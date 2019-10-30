@@ -1,0 +1,24 @@
+/** Import Bootstrap functions */
+@import "~bootstrap/scss/functions";
+
+$theme-colors: (
+  primary: #525ddc
+);
+
+/** Bootstrap navbar fix (https://git.io/fADqW) */
+$navbar-dark-toggler-icon-bg: none;
+$navbar-light-toggler-icon-bg: none;
+
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+//Variables
+$website-width: 1000px;
+$post-website-width: 1000px;
+$main-color: #5db9c9;
+$second-color: #1d7786;
+$light-color: #f4f4f4;
+$dark-color: #333;
+$medium-color: #ccc;
+$ligh-dark-color: #8d8d8f;
+$main-font: "Roboto", sans-serif;
+
+$highlight-color-1: #84dade; // Light Turquoise

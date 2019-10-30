@@ -1,0 +1,57 @@
+//Tablets and Smaller
+@media (max-width: 800px) {
+  .section-title {
+    font-size: 1.5rem;
+  }
+  .item {
+    &-image {
+      img {
+        height: 200px;
+      }
+    }
+  }
+}
+
+//Smartphones
+@media (max-width: 650px) {
+  .items {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+  }
+  .item {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    margin: 0 0 1.5rem 0;
+    &-text-wrap {
+      padding: 0 0.2rem 0 1rem;
+    }
+    &-text-title {
+      font-size: 1rem;
+    }
+    &-text-category {
+      font-size: 0.7rem;
+    }
+    &-image {
+      img {
+        width: 200px;
+        height: 200px;
+      }
+    }
+  }
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  //Menu responsive
+  .main-nav {
+    ul {
+      display: block;
+      padding-top: 0.8rem;
+    }
+  }
+}
